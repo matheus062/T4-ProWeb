@@ -42,6 +42,10 @@ p {
   margin-bottom: 50px;
 }
 
+.mt-5 {
+  margin-bottom: -880px!important;
+}
+
 /* Show it is fixed to the top */
 
 .bd-placeholder-img {
@@ -153,6 +157,7 @@ main p {
 
 footer {
   background-color: white;
+  margin-top: 100px;
 }
 
 @media(max-width: 992px) {
