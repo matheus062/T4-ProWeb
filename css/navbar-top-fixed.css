@@ -1,15 +1,42 @@
 /*Bloco de Reset de Estilo*/
-body{
+
+body {
   padding: 0;
   margin: 0;
 }
 
-ol, ul{
+ol, ul {
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 20px;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.lead {
+  margin: 20px;
 }
 
 /* Show it is fixed to the top */
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -32,99 +59,103 @@ body {
   background-color: #220d48;
 }
 
-#img-logo{
+#img-logo {
   width: 200px;
 }
 
-.navbar{
-    background-color: #2B115A;
-    padding-left:5%;
-    padding-right:5%;
+.navbar {
+  background-color: #2B115A;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.nav-link{
+.nav-link {
   margin-left: 20px;
   font-size: 20px;
 }
 
-main p{
+main p {
   text-align: justify;
 }
 
-#topo{
+#topo {
   background-color: #220d48;
 }
 
-#sobre{
+#sobre {
   background-image: url("../img/img-sobre.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px 10px 0 0;
 }
 
-#contato{
+#contato {
   border-radius: 0 0 10px 10px;
   text-align: center;
   background-color: #190a36;
-} 
+}
 
-#contato p{
+#contato p {
   text-align: center;
 }
 
-#contato h4{
+#contato h4 {
   text-decoration-line: underline;
 }
 
-#sobre-texto{
+#sobre-texto {
   background-color: #2b115ada;
   border-radius: 15px;
   padding: 10px;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-#sobre-img{
-  display: flex; 
-  flex-direction: column; 
+#sobre-img {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-#carrosel-text{
+#carrosel-text {
   padding: 10px;
   background-color: #2b115ada;
   border-radius: 15px;
 }
 
-#topo ul li{
+#topo ul li {
   background-color: #190a36bd;
   border-radius: 10px;
-  margin:10px;
-  padding:10px;
-
+  margin: 10px;
+  padding: 20px;
   text-align: center;
 }
 
-#form-linha{
+#form-linha {
   margin: 10px;
 }
 
-#form-linha input{
+#form-linha input {
   height: 40px;
 }
 
-footer{
+footer {
   background-color: white;
 }
 
-@media(max-width: 992px){
-  #sobre-img{
-      margin-top: 25px;
-      align-items: center;
+@media(max-width: 992px) {
+  #sobre-img {
+    margin-top: 25px;
+    align-items: center;
   }
-
-  #sobre-img img{
+  #sobre-img img {
     width: 75%;
+  }
+  #sobre-texto {
+    flex: 1;
+  }
+  #sobre{
+    padding: 0;
   }
 }
