@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   top: -88px;
-  font-family: Share Tech, sans-serif!important;
+  font-family: "Comfortaa", sans-serif;
 }
 
 ol, ul {
@@ -12,9 +12,8 @@ ol, ul {
   margin: 0;
 }
 
-h2 {
+h3 {
   margin: 0;
-  font-size: 20px;
 }
 
 h1 {
@@ -27,11 +26,6 @@ h5 {
 
 p {
   margin: 20px;
-}
-
-.row {
-  margin-right: 0;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .lead {
@@ -100,7 +94,7 @@ main p {
 #contato {
   border-radius: 0 0 10px 10px;
   text-align: center;
-  background-color: #190a36;
+  background: radial-gradient(circle, rgba(136, 29, 29, 0.541) 0%, rgb(37, 0, 97) 100%);
 }
 
 #contato p {
@@ -156,6 +150,20 @@ main p {
   height: 40px;
 }
 
+#portifolio{
+  background: radial-gradient(circle, rgba(136, 29, 29, 0.541) 0%, rgb(37, 0, 97) 100%);
+
+}
+
+#cartao{
+  background-color: #4f2897;
+}
+
+#cartao p{
+  text-align: left;
+  font-size: 18px;
+}
+
 footer {
   background-color: white;
   margin-top: 100px;
@@ -191,7 +199,20 @@ footer {
   #topo {
     padding: 0;
   }
-  h2 {
+
+  .carousel-item{
+    min-height: 350px;
+  }
+
+  .carousel-item img{
+    min-height: 350px;
+  }
+
+  #servicos h2 { 
+    font-size: 20px;
+  }
+
+  #servicos p{
     font-size: 16px;
   }
 }
