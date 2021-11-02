@@ -29,10 +29,15 @@ p {
 
 .row {
   margin-right: 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .lead {
   margin: 20px;
+}
+
+#topo{
+  padding: 50px;
 }
 
 /* Show it is fixed to the top */
@@ -56,15 +61,15 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem;
   position: relative;
-  background-color: #220d48;
+  background: radial-gradient(circle, rgba(255,65,65,1) 0%, rgba(89,0,231,1) 100%);
 }
 
 #img-logo {
-  width: 200px;
+  width: 80px;
 }
 
 .navbar {
-  background-color: #2B115A;
+  background-image: linear-gradient(to left bottom, #2a0537, #3c045a, #4a0681, #520fad, #501edc);
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -76,10 +81,6 @@ body {
 
 main p {
   text-align: justify;
-}
-
-#topo {
-  background-color: #220d48;
 }
 
 #sobre {
@@ -132,6 +133,14 @@ main p {
   text-align: center;
 }
 
+#topo ul li:hover {
+  background-color: #ff3e3e;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
 #form-linha {
   margin: 10px;
 }
@@ -157,5 +166,27 @@ footer {
   }
   #sobre{
     padding: 0;
+  }
+  #img-logo{
+  width: 80px;
+  margin-left: -25px;
+  }
+  .img-fluid{
+    width: 200px;
+    margin-left: -20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+#lista-topo{
+  margin-bottom: 30px;
+}
+
+#topo{
+  padding: 0;
+}
+
+  h2 {
+    font-size: 16px;
   }
 }
