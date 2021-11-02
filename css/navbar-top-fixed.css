@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  fon
 }
 
 ol, ul {
@@ -36,8 +37,9 @@ p {
   margin: 20px;
 }
 
-#topo{
-  padding: 50px;
+#topo {
+  margin-left: 5px;
+  margin-bottom: 50px;
 }
 
 /* Show it is fixed to the top */
@@ -61,7 +63,7 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem;
   position: relative;
-  background: radial-gradient(circle, rgba(255,65,65,1) 0%, rgba(89,0,231,1) 100%);
+  background: radial-gradient(circle, rgba(255, 65, 65, 1) 0%, rgba(89, 0, 231, 1) 100%);
 }
 
 #img-logo {
@@ -164,28 +166,25 @@ footer {
   #sobre-texto {
     flex: 1;
   }
-  #sobre{
+  #sobre {
     padding: 0;
   }
-  #img-logo{
-  width: 80px;
-  margin-left: -25px;
+  #img-logo {
+    width: 80px;
+    margin-left: -25px;
   }
-  .img-fluid{
+  .img-fluid {
     width: 200px;
     margin-left: -20px;
     margin-top: 30px;
     margin-bottom: 15px;
   }
-
-#lista-topo{
-  margin-bottom: 30px;
-}
-
-#topo{
-  padding: 0;
-}
-
+  #lista-topo {
+    margin-bottom: 30px;
+  }
+  #topo {
+    padding: 0;
+  }
   h2 {
     font-size: 16px;
   }
